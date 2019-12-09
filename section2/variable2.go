@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 여러개 설정
 	var (
-		name string = "machine"
-		height int32
-		weight float32
+		name      string = "machine"
+		height    int32
+		weight    float32
 		isRunning bool
 	)
 

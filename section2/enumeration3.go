@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	const (
 		_ = iota
 		A
@@ -11,7 +11,7 @@ func main()  {
 	)
 
 	const (
-		_ = iota + 0.75 * 2
+		_ = iota + 0.75*2
 		DEFAULT
 		SILVER
 		GOLD

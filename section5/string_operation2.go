@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 예제 2 (비교)
 	str1 := "Golang"
 	str2 := "World"
@@ -17,5 +17,5 @@ func main()  {
 		ex1 :  true
 		ex1 :  false
 		ex1 :  true
-	 */
+	*/
 }

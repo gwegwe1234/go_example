@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	const a, b int = 10, 20
 	const c, d, e = true, 0.84, "test"
 	const (

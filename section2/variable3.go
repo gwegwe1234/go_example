@@ -17,7 +17,7 @@ func main() {
 	fmt.Println("shortVar2 : ", shortVar2)
 	fmt.Println("shortVar3 : ", shortVar3)
 
-	if i :=10; i < 11 {
+	if i := 10; i < 11 {
 		fmt.Println("Short Variable If test")
 	}
 }

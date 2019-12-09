@@ -2,13 +2,12 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 조건문 - switch
 	// switch 뒤 표현식 (Expression) 생략 가능
 	// case 뒤 표현식 (Expression) 생략 가능
 	// 자동 break 때문에 fallthrouth 존재
 	// Type 분기 -> 값이 아닌 변수 Type으로 분기 가능
-
 
 	// 예제 1
 	a := -7

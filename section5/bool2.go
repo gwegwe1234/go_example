@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 논리 연산자
 	fmt.Println("ex1 : ", true && true)
 	fmt.Println("ex1 : ", true && false)

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// Go : 모호하거나, 애매한 문법 금지
 	// 후치 연산자 허용 i++, 전치 연산자 비허용 ++i
 	// 증감연산 반환 값 없음 sum := i+= 안됨

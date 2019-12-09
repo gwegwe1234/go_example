@@ -3,7 +3,7 @@ package lib
 
 import "fmt"
 
-func init()  {
+func init() {
 
 	fmt.Println("lib Init Start")
 }

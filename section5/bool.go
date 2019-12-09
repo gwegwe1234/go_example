@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// Bool : 참과 거짓
 	// 조건부 논리 연산자랑 주로 사용 : !, ||, &&
 	// 암묵적 형변환 x

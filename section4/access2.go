@@ -9,7 +9,7 @@ import (
 	// _ "github.com/gwegwe1234/go_example/section4/lib2" -> 빈 식별자. _ 를 쓰면 ide에서도 안지움
 )
 
-func main()  {
+func main() {
 	// 패키지 접근제어
 	// 별칭 사용
 	// 빈 식별자 사용

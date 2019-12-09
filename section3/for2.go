@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 예제 1
 	sum1 := 0
-	for i :=0 ; i <= 100; i++ {
+	for i := 0; i <= 100; i++ {
 		sum1 += i
 	}
-	fmt.Println("ex1 : ", + sum1)
+	fmt.Println("ex1 : ", +sum1)
 
 	// 예제 2
 	sum2, i := 0, 0
@@ -18,7 +18,6 @@ func main()  {
 	}
 
 	fmt.Println("ex2 : ", sum2)
-
 
 	// 예제 3
 	sum3, i := 0, 0
@@ -34,14 +33,14 @@ func main()  {
 	fmt.Println("ex3 : ", sum3)
 
 	// 예제 4
-	for i, j := 0, 0; i <= 10; i, j = i+1, j+10{
+	for i, j := 0, 0; i <= 10; i, j = i+1, j+10 {
 		fmt.Println("ex4 : ", i, j)
 	}
 
 	// 에러 발생
 	/*
-	for i, j := 0, 0; i <= 10; i++, j += 10{
-		fmt.Println("ex4 : ", i, j)
-	}
+		for i, j := 0, 0; i <= 10; i++, j += 10{
+			fmt.Println("ex4 : ", i, j)
+		}
 	*/
 }

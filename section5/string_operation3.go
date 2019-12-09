@@ -5,11 +5,11 @@ import (
 	"strings"
 )
 
-func main()  {
+func main() {
 	// 예제1 (결합 : 일반연산)
 	str1 := "The Go programming language is an open source project to make programmers more productive." +
-			"Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that" +
-			" It's a fast, statically typed, compiled language that feels like a dynamically typed, "
+		"Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that" +
+		" It's a fast, statically typed, compiled language that feels like a dynamically typed, "
 	str2 := "interpreted language."
 
 	fmt.Println("ex1 : ", str1+str2)

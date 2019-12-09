@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 문자열 표현
 	// 문자열 : UTF-8 인코딩 (유니코드 문자 집합) -> 바이트 수 주의
 
@@ -38,7 +38,7 @@ func main()  {
 	fmt.Println()
 
 	// 예제 3
-	for i , char := range str1 {
+	for i, char := range str1 {
 		fmt.Printf("ex3 : %c(%d)\t", char, i)
 	}
 	fmt.Println()

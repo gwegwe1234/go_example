@@ -6,14 +6,14 @@ import (
 	"time"
 )
 
-func main()  {
+func main() {
 	rand.Seed(time.Now().UnixNano())
 	switch i := rand.Intn(100); {
-	case i >= 50 && i< 100:
-		fmt.Println("i -> ", i , " 50 이상 100 미만")
+	case i >= 50 && i < 100:
+		fmt.Println("i -> ", i, " 50 이상 100 미만")
 	case i >= 25 && i < 50:
-		fmt.Println("i -> ", i , " 는 25 이상 50 미만")
+		fmt.Println("i -> ", i, " 는 25 이상 50 미만")
 	default:
-		fmt.Println("i -> ", i , " 는 기본값")
+		fmt.Println("i -> ", i, " 는 기본값")
 	}
 }

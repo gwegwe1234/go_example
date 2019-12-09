@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 문자열 연산
 	// 추출, 비교, 조합(결합)
 
@@ -19,5 +19,5 @@ func main()  {
 		ex1 :  ld 87
 		ex1 :  Worl
 		ex1 :  ol
-	 */
+	*/
 }

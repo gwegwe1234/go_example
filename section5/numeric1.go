@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// 데이터 타입 : 숫자형
 	// 정수, 실수, 복소수,
 	// 32bit, 64bit, unsigned(양수),

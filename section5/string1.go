@@ -5,7 +5,7 @@ import (
 	"unicode/utf8"
 )
 
-func main()  {
+func main() {
 	// 문자열
 	// 큰 따옴표 "", 백스쿼트 ``
 	// 문자 char '' 타입 존재 하지 않음 -> rune(int32)로 문자 코드 값으로 표현

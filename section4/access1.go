@@ -5,7 +5,7 @@ import (
 	"github.com/gwegwe1234/go_example/section4/lib2"
 )
 
-func main()  {
+func main() {
 	// 패키지 접근제어
 	// 변수, 상수, 함수, 메소드, 구조체 들 식별자
 	// 대문자 : 패키지 외부에서 접근 가능

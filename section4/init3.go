@@ -7,11 +7,11 @@ import (
 
 var num int32
 
-func init()  {
+func init() {
 	num = 30
 	fmt.Println("Main Init Start")
 }
 
-func main()  {
+func main() {
 	fmt.Println("10보다 큰수 ? : ", lib.CheckNum(num))
 }
