@@ -1,0 +1,4 @@
+somesHello Golang! 
+ File Write Test -1 
+Hello Golang 2!!!
+e At! -2 
